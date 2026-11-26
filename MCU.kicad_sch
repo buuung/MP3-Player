@@ -952,6 +952,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 184.15) (xy 237.49 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b473a5c-a3bd-4905-bd27-aa0a5a653f0d")
+	)
+	(wire
+		(pts
+			(xy 226.06 186.69) (xy 237.49 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecbe196-9b76-4de8-912b-ae80645553a0")
+	)
+	(wire
+		(pts
 			(xy 283.21 254) (xy 283.21 252.73)
 		)
 		(stroke
@@ -959,6 +979,26 @@
 			(type default)
 		)
 		(uuid "80968ceb-224d-44dc-81eb-42f3d4b1993f")
+	)
+	(label "GPIO16"
+		(at 226.06 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2168c229-eedd-4fc9-b37a-5002e428bee6")
+	)
+	(label "GPIO15"
+		(at 226.06 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bdd1134-8e64-49b9-a346-a0d762298806")
 	)
 	(symbol
 		(lib_id "power:GND")
