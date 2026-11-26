@@ -469,7 +469,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -653,7 +653,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "MCU",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -665,13 +665,33 @@
         "uuid": "acc849f0-3d84-4ef5-a714-bfbfe8fb2c31"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-2,J1,U1-2",
     "variants": []
   },
   "sheets": [
     [
       "acc849f0-3d84-4ef5-a714-bfbfe8fb2c31",
       "MP3-Player"
+    ],
+    [
+      "be0d0e2a-d4cb-4add-bd8f-d1c034effe93",
+      "Power"
+    ],
+    [
+      "c3a163ca-c0ae-4b6e-acb9-169ce006c32f",
+      "MCU"
+    ],
+    [
+      "07dead39-00f0-4282-b769-5d154f2ac731",
+      "Audio"
+    ],
+    [
+      "7ce50257-b774-42fe-a442-7c1839a8f20a",
+      "UI"
+    ],
+    [
+      "b33381e2-99ae-4343-9ef2-7efe2fe19608",
+      "Storage"
     ]
   ],
   "text_variables": {},
