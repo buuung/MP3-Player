@@ -1706,6 +1706,12 @@
 		(uuid "92b470ff-aeb8-4112-8ca2-0f4d55fb96a5")
 	)
 	(junction
+		(at 104.14 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "966d6faa-f903-4d57-a7e9-ce3404a2f32d")
+	)
+	(junction
 		(at 114.3 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2045,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 104.14) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e87c07-9bed-4c38-b9ff-2d70fbad09d4")
+	)
+	(wire
+		(pts
 			(xy 147.32 87.63) (xy 147.32 92.71)
 		)
 		(stroke
@@ -2255,16 +2271,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 104.14) (xy 114.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3bbfc0d-c491-458a-b017-b864e864eaf2")
-	)
-	(wire
-		(pts
 			(xy 41.91 90.17) (xy 41.91 91.44)
 		)
 		(stroke
@@ -2302,6 +2308,16 @@
 			(type default)
 		)
 		(uuid "e673ed1d-2a83-4ad8-82b8-2de39e56dc57")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79a7363-f791-4e53-b898-733f370e003f")
 	)
 	(wire
 		(pts
@@ -2383,16 +2399,6 @@
 		)
 		(uuid "a82c58d8-bc91-48de-a660-b1cd54c12659")
 	)
-	(label "ESP_3V3"
-		(at 111.76 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc0beb1e-6fd1-40f8-99be-4886f0c502dd")
-	)
 	(label "BOOT"
 		(at 168.91 129.54 0)
 		(effects
@@ -2402,6 +2408,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc81620f-eb33-4af4-a108-6795aa961efd")
+	)
+	(label "ESP_3V3"
+		(at 104.14 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c21cf648-576f-4348-8004-34c38eab9924")
 	)
 	(label "ESP_3V3"
 		(at 41.91 74.93 0)
@@ -2928,7 +2944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b1fe7d8-6128-443d-9054-09ca42478db4")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 120.904 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,7 +3012,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7487fe-fe05-49f9-815a-965be722f7da")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 44.45 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +3100,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "405be47a-0e0d-4ec1-9db7-f878d123d5ef")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR025"
 			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3168,7 +3184,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "#PWR03")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3185,7 +3201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66e7f237-2d24-430f-953f-f97f873e6436")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 192.532 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3253,7 +3269,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3271,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b5cb8f-c978-4158-a0b2-478e8742d860")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR026"
 			(at 114.3 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -3338,7 +3354,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "#PWR01")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3561,7 +3577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c169ea2-138b-4a32-9a14-f226ae198a6b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR029"
 			(at 181.61 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3627,7 +3643,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "#PWR06")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3644,7 +3660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d6c2d05-aa1d-4cf4-8953-a331a02d814a")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG04"
 			(at 102.235 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3711,7 +3727,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "#FLG01")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -3728,7 +3744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a141edd2-6198-4d6b-abbd-146dbb28de48")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 158.242 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,7 +3812,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3813,7 +3829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1ce8a39-9e55-47f0-9fb1-3495c2293ebc")
-		(property "Reference" "R24"
+		(property "Reference" "R13"
 			(at 116.84 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3883,7 +3899,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "R24")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3901,7 +3917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea6d91f-92c8-46b5-991a-b6a7d99131c4")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 156.21 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +3985,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3987,7 +4003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9bc6514-cdeb-42d1-9058-0b7dc5a6c541")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR028"
 			(at 147.32 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4053,7 +4069,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "#PWR05")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4070,7 +4086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6bc771c-62a8-4612-908f-3044f70afc89")
-		(property "Reference" "C2"
+		(property "Reference" "C11"
 			(at 122.174 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4154,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "C2")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4156,7 +4172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0f11913-6473-49ca-aa41-6c8decd27fa5")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 190.5 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4224,7 +4240,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -4242,7 +4258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1210956-a6e8-43ef-babe-1b97b4aadf05")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR027"
 			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4309,7 +4325,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "#PWR02")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4327,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d584738c-1bf9-45c9-a6a0-dd3873175dce")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR024"
 			(at 41.91 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4393,7 +4409,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "#PWR04")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4411,7 +4427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d804f6dd-8892-4bb4-8598-33ce0f316fb8")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 45.72 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +4497,7 @@
 			)
 			(project "MP3-Player"
 				(path "/acc849f0-3d84-4ef5-a714-bfbfe8fb2c31/c3a163ca-c0ae-4b6e-acb9-169ce006c32f"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4492,5 +4508,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
