@@ -4490,7 +4490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 116.84 84.7852 0)
 			(hide yes)
 			(show_name no)
@@ -4657,7 +4657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.132 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -4743,7 +4743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.33 204.7748 0)
 			(hide yes)
 			(show_name no)
@@ -4988,7 +4988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.0052 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -5070,7 +5070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 201.93 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 86.6648 0)
 			(hide yes)
 			(show_name no)
@@ -5340,7 +5340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.81 230.378 90)
 			(hide yes)
 			(show_name no)
@@ -5421,7 +5421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 222.758 90)
 			(hide yes)
 			(show_name no)
@@ -5666,7 +5666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 244.602 90)
 			(hide yes)
 			(show_name no)
@@ -6118,7 +6118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.02 86.6648 0)
 			(hide yes)
 			(show_name no)
@@ -6205,7 +6205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.522 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -6292,7 +6292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 243.078 90)
 			(hide yes)
 			(show_name no)
@@ -6622,7 +6622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.372 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -6785,7 +6785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 92.4052 0)
 			(hide yes)
 			(show_name no)
@@ -6873,7 +6873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 201.93 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -7235,7 +7235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7322,7 +7322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.36 227.838 90)
 			(hide yes)
 			(show_name no)
@@ -7481,7 +7481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.49 217.4748 0)
 			(hide yes)
 			(show_name no)
@@ -7562,7 +7562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 227.838 90)
 			(hide yes)
 			(show_name no)
@@ -7643,7 +7643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.72 240.538 90)
 			(hide yes)
 			(show_name no)
@@ -7724,7 +7724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 227.838 90)
 			(hide yes)
 			(show_name no)
